@@ -1,0 +1,78 @@
+/* General body styling for all pages */
+body {
+    font-family: 'Times New Roman', serif; /* Use Times New Roman font */
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/1.jpg'); /* Corrected path */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+}
+
+/* Header styling */
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(242, 242, 242, 0.8); /* Semi-transparent header background */
+}
+
+.header-image {
+    width: 100px; /* Resize the logo */
+    height: auto;
+    margin-right: 20px; /* Add some space between the image and the title */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Make content background semi-transparent */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Gallery styling */
+.gallery img {
+    width: 30%;
+    margin: 10px;
+}
